@@ -9,7 +9,7 @@ import {FaMapMarked} from'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-orange-300 flex justify-center items-center p-4'>
+    <div name='contact' className='w-full  bg-orange-300 flex justify-center items-center p-4 pb-10'>
          <div className='flex flex-row flex-wrap'>
               <div id='Pennel details'>
                    <h3 className='font-bold text-2xl mb-1 mt-2 text-red-800'>Personel details</h3>
@@ -44,7 +44,8 @@ const Contact = () => {
                              Album of My pic I build in My own </li>
                            </ul>
               </div>
-              <div id='life details'>
+              <div className="pt-6"/>
+              <div id='life details '>
                           <h1 className='font-bold text-5xl mb-2 text-amber-800'>Zakariya Zouazou</h1>
                            <h2>web developer with many project with my club 
                            and I have good experience in this job</h2>

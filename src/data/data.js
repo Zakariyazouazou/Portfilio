@@ -2,6 +2,8 @@ import WorkIm from '../assets/projects/Commerce.png'
 import RealEst from '../assets/projects/Contact.png'
 import MultiMusic from '../assets/projects/MultiMusic.png'
 import Music from '../assets/projects/Music.png'
+import Statique from '../assets/projects/Statique1.png'
+import PageWeb from '../assets/projects/Statique2.png'
 import Snake from '../assets/projects/Snak.png'
 import calculator from '../assets/projects/Calculater.png'
 import bird from '../assets/projects/bird.png'
@@ -12,28 +14,43 @@ export const data=[
         id:1,
         name:"Comerce project",
         image:WorkIm,
-        github:"https://github.com/Zakariyazouazou/newComerce",
-        live:"https://zakariyazouazou.github.io/newComerce/",
+        github:"",
+        live:"",
     },
+    {
+        id:9,
+        name:"Statique",
+        image:Statique,
+        github:"",
+        live:"",    
+    },
+    {
+        id:10,
+        name:"WebPage",
+        image:PageWeb,
+        github:"",
+        live:"", 
+    },
+
     {
         id:2,
         name:"Social Media",
         image:RealEst,
-        github:"https://github.com/Zakariyazouazou/NewmediaSocial",
-        live:"https://zakariyazouazou.github.io/NewmediaSocial/public/",
+        github:"",
+        live:"",
     },
     {
         id:3,
         name:"Lecture Music",
         image:MultiMusic,
-        github:"https://github.com/Zakariyazouazou/SpecialSong",
-        live:"https://github.com/Zakariyazouazou/SpecialSong",
+        github:"",
+        live:"",
     },
     {
         id:4,
         name:"Music",
         image:Music,
-        github:"",
+        github:"https://zakariyazouazou.github.io/MusicSongs/music.html",
         live:"https://zakariyazouazou.github.io/MusicSongs/music.html",
     },
     {
@@ -64,5 +81,6 @@ export const data=[
         github:"https://github.com/Zakariyazouazou/Bird",
         live:"https://zakariyazouazou.github.io/Bird/bird.html",
     },
+   
 
 ]

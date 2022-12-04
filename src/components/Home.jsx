@@ -1,11 +1,12 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import MyPhoto from '../assets/20220101_161409.jpg'
+import './Home.css'
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-orange-300'>
       {/* Container */}
-      <img className='w-48 absolute top-96 rounded-full right-64 ' src={MyPhoto} alt="Myphoto"/>
+      <img className='w-48 absolute top-96 rounded-full right-64 phoneMode' src={MyPhoto} alt="Myphoto"/>
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-orange-900'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-gray-800'>

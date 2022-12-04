@@ -1,0 +1,7 @@
+@media screen and (max-width:800px) {
+    .phoneMode{
+        position: relative;
+         top:85px; 
+         left: 20%;
+    }
+}
