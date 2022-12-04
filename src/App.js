@@ -13,7 +13,6 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <div className="mt-20 casscreen"/>
       <Work />
       <div className="pt-5"/>
       <Contact />

@@ -10,41 +10,42 @@ import bird from '../assets/projects/bird.png'
 import Xo from '../assets/projects/XO.png'
 
 export const data=[
-    {
-        id:1,
-        name:"Comerce project",
-        image:WorkIm,
-        github:"",
-        live:"",
-    },
+   
     {
         id:9,
         name:"Statique",
         image:Statique,
-        github:"",
-        live:"",    
+        github:"https://github.com/Zakariyazouazou/State",
+        live:"https://zakariyazouazou.github.io/State/",    
+    },
+    {
+        id:1,
+        name:"Comerce project",
+        image:WorkIm,
+        github:"https://github.com/Zakariyazouazou/commerce",
+        live:"https://zakariyazouazou.github.io/commerce/",
     },
     {
         id:10,
         name:"WebPage",
         image:PageWeb,
-        github:"",
-        live:"", 
+        github:"https://github.com/Zakariyazouazou/PageWeb-",
+        live:"https://zakariyazouazou.github.io/PageWeb-/", 
     },
 
     {
         id:2,
         name:"Social Media",
         image:RealEst,
-        github:"",
-        live:"",
+        github:"https://github.com/Zakariyazouazou/Sun",
+        live:"https://github.com/Zakariyazouazou/Sun",
     },
     {
         id:3,
         name:"Lecture Music",
         image:MultiMusic,
-        github:"",
-        live:"",
+        github:"https://github.com/Zakariyazouazou/Albummusic",
+        live:"https://github.com/Zakariyazouazou/Albummusic",
     },
     {
         id:4,

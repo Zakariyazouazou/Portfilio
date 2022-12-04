@@ -13,6 +13,7 @@ import Boostrap from '../assets/bootstrap.png'
 import php from '../assets/php (3).png';
 import sql from '../assets/sql-server.png'
 import MySql from '../assets/mysql.png'
+import statistiques from '../assets/statistiques.png'
 
 const Skills = () => {
   return (
@@ -56,6 +57,10 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Boostrap} alt="HTML icon" />
                   <p className='my-4 text-gray-800'>Boostrap</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={statistiques} alt="HTML icon" />
+                  <p className='my-4 text-gray-800'>Syncfusion</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={php} alt="HTML icon" />

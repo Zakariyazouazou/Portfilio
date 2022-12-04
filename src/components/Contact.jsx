@@ -9,7 +9,7 @@ import {FaMapMarked} from'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full  bg-orange-300 flex justify-center items-center p-4 pb-10'>
+    <div name='contact' className='w-full  bg-orange-300 flex justify-center items-center p-4 pb-10 mt-12'>
          <div className='flex flex-row flex-wrap'>
               <div id='Pennel details'>
                    <h3 className='font-bold text-2xl mb-1 mt-2 text-red-800'>Personel details</h3>
